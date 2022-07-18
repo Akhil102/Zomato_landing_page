@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
 }
 .hero{
     background: url(images/heroSectionBackground.png);
@@ -21,10 +22,17 @@
 .navbar a{
     text-decoration: none;
     color: white;
+   
+}
+.link{
+    font-size: 18px;
+    font-weight: 350;
 }
 .navbar_container{
     display: flex;
     gap: 30px;
+    margin-right: 180px;
+    
 }
 .user{
     height: 30px;
@@ -34,6 +42,35 @@
     justify-content: center;
     align-items: center;
     display: none;
+}
+.hero .hero_logo{
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+    /* background: white; */
+}
+.hero .hero_heading{
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.app{
+    margin-left: 150px;
+    font-weight: 500;
+}
+#search{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+   padding: 15px 100px;
 }
 @media only screen and (max-width:500px){
     .navbar_container .link{
