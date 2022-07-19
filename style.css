@@ -48,7 +48,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 38px;
+    margin-top: 66px;
     /* background: white; */
 }
 .hero .hero_heading{
@@ -61,7 +61,7 @@
     margin-left: 150px;
     font-weight: 500;
 }
-#search{
+/* #search{
     display: block;
     width: 50%;
     margin-left: auto;
@@ -71,7 +71,32 @@
     border: none;
     outline: none;
    padding: 15px 100px;
+} */
+.search_box{
+ display: flex;
+ justify-content: center;
+ margin-top: 25px;
 }
+input[type="text"]{
+    height: 50px;
+    width: 550px;
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 0 8px 8px 0;
+    background: #fff;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px 0 0 8px;
+    background: #fff;
+    cursor: pointer;
+}
+
 @media only screen and (max-width:700px){
     .navbar_container .link{
         display:none;
@@ -93,7 +118,7 @@
     .app{
         margin: 10px 20px;
     }
-    #search{
+    /* #search{
         display: block;
         width: 85%;
         margin-left: auto;
@@ -102,6 +127,20 @@
         border-radius: 8px;
         border: none;
         outline: none;
+    } */
+    .hero .hero_logo{
+        height: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 38px;
+        /* background: white; */
+    }
+    .hero .hero_heading{
+        text-align: center;
+        font-weight: 400;
+        font-size: 35px;
+        margin-top: 30px;
     }
 
 }
