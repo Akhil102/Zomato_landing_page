@@ -147,6 +147,8 @@ gap: 20px;
     /* background: red; */
     border-radius: 15px;
     border: 0.1px solid gainsboro;
+    cursor: pointer;
+    transition: all ease 0.4s;
 }
 .card_container_card_img1{
    min-height: 65%;
@@ -177,6 +179,10 @@ gap: 20px;
  .card_container_card_heading_para{
     padding: 5px 5px 15px 15px;
     font-size: 15px;
+ }
+ .card_container_card:hover{
+   /* display: none; */
+   transform: scale(1.05);
  }
 
 @media only screen and (max-width:700px){
