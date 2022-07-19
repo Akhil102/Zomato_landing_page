@@ -142,5 +142,24 @@ input[type="submit"]{
         font-size: 35px;
         margin-top: 30px;
     }
+    input[type="text"]{
+        height: 50px;
+        width: 65%;
+        outline: none;
+        border: none;
+        padding: 10px 40px;
+        border-radius: 0 8px 8px 0;
+        background: #fff;
+    }
+    input[type="submit"]{
+        height: 50px;
+        width: 25%;
+        outline: none;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px 0 0 8px;
+        background: #fff;
+        cursor: pointer;
+    }
 
 }
