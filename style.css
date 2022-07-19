@@ -48,7 +48,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 38px;
+    margin-top: 50px;
     /* background: white; */
 }
 .hero .hero_heading{
@@ -59,9 +59,10 @@
 }
 .app{
     margin-left: 150px;
-    font-weight: 500;
+    font-weight: 550;
+    font-size: 13px;
 }
-#search{
+/* #search{
     display: block;
     width: 50%;
     margin-left: auto;
@@ -71,29 +72,90 @@
     border: none;
     outline: none;
    padding: 15px 100px;
+} */
+.search_box{
+ display: flex;
+ justify-content: center;
+ margin-top: 25px;
 }
+#search{
+    height: 52px;
+    width: 480px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 0 8px 8px 0;
+    background: #fff;
+}
+#city_name{
+    height: 52px;
+    width: 190px;
+    outline:none;
+    border:none;
+    padding: 10px 1px;
+    
+    background: #fff;
+    /* cursor: pointer; */
+}
+span{
+    display: flex;
+    background: white;
+    color: rgba(160, 154, 154, 0.655);
+    font-size: 23px;
+    font-weight: 300;
+    align-items: center;
+    height: 52px;
+}
+#search_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    padding: 15px 10px;
+    width: 42px;
+    font-size: 25px;
+    /* font-weight: 300; */
+    background: #fff;
+    color: black;
+}
+#location_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    padding: 15px 10px;
+    border-radius: 8px 0 0 8px;
+    width: 42px;
+    font-size: 25px;
+    /* font-weight: 300; */
+    background: #fff;
+    /* color: black; */
+
+}
+
 @media only screen and (max-width:700px){
     .navbar_container .link{
         display:none;
         
     }
     .hero{
-        min-height: 65vh;
+        min-height: 60vh;
     }
     .user{
         display: flex;
     }
     .navbar{
-       
+        height: 60px;
         padding: 10px 20px;
     }
     .navbar_container{
+        
         margin: 10px 20px;
     }
     .app{
         margin: 10px 20px;
     }
-    #search{
+    /* #search{
         display: block;
         width: 85%;
         margin-left: auto;
@@ -102,6 +164,74 @@
         border-radius: 8px;
         border: none;
         outline: none;
+    } */
+    .hero .hero_logo{
+        height: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        /* background: white; */
+    }
+    .hero .hero_heading{
+        text-align: center;
+        font-weight: 400;
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    #search{
+        height: 52px;
+        width: 49%;
+        outline: none;
+        border: none;
+        padding: 10px;
+        border-radius: 0 8px 8px 0;
+        background: #fff;
+    }
+    #city_name{
+        height: 52px;
+        width: 27%;
+        outline:none;
+        border:none;
+        padding: 10px 1px;
+        
+        background: #fff;
+        /* cursor: pointer; */
+    }
+    span{
+        display: flex;
+        background: white;
+        color: rgba(160, 154, 154, 0.655);
+        font-size: 23px;
+        font-weight: 300;
+        align-items: center;
+        height: 52px;
+    }
+    #search_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 52px;
+        padding: 15px 10px;
+        width: 7%;
+        font-size: 25px;
+        /* font-weight: 300; */
+        background: #fff;
+        color: black;
+    }
+    #location_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 52px;
+        padding: 15px 10px;
+        border-radius: 8px 0 0 8px;
+        width: 7%;
+        font-size: 25px;
+        /* font-weight: 300; */
+        background: #fff;
+        /* color: black; */
+    
     }
 
 }
