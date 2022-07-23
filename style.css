@@ -196,6 +196,123 @@ gap: 20px;
    /* display: none; */
    transform: scale(1.05);
  }
+ .collections_div{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    width: 71%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .collections_container{
+    display: flex;
+    justify-content: space-between;
+ }
+ .collections{
+    font-size: 35px;
+    font-weight: 400;
+ }
+ .collections_container p{
+    font-size: 17px;
+    font-weight: 230;
+ }
+ .collections_container a{
+    text-decoration: none;
+    color: rgb(255, 55, 0);
+ }
+ .collections_card_container{
+    margin-top: 30px;
+display: flex;
+width: 72%;
+height: 305px;
+margin-left: auto;
+margin-right: auto;
+gap: 10px;
+margin-bottom: 100px;
+ }
+ .collections_card{
+    flex:1;
+    /* background: linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%); */
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+   
+ }
+ .collections_card_img1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection1.jpg) ;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.7; */
+    border-radius: 8px;
+   
+}
+.collections_card_img1 p{
+    position: absolute;
+    color: #fff;
+   height: 100%;
+    margin-top: calc(height - 15px);
+}
+.collections_card_img2{
+    height: 100%;
+    width: 100%;
+   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection2.jpg) ;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.7; */
+    border-radius: 8px;
+   
+}
+.collections_card_img3{
+    height: 100%;
+    width: 100%;
+   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection3.jpg) ;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.7; */
+    border-radius: 8px;
+   
+}
+.collections_card_img4{
+    height: 100%;
+    width: 100%;
+   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection4.jpg) ;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.7; */
+    border-radius: 8px;
+   
+}
+.link_section{
+    display: flex;
+    justify-content: space-between;
+}
+ .footer_sections{
+display: flex;
+width: 100%;
+height: 400px;
+background: rgb(248, 248, 248);
+margin-left: auto;
+margin-right: auto;
+flex-direction: column;
+ }
+ .about_social_link{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+ }
+ .section{
+    display: flex;
+    flex-direction: column;
+    background: pink;
+ }
 
 @media only screen and (max-width:700px){
     .navbar_container .link{
@@ -203,7 +320,7 @@ gap: 20px;
         
     }
     .hero{
-        min-height: 60vh;
+        min-height: 65vh;
     }
     .user{
         display: flex;
@@ -230,17 +347,19 @@ gap: 20px;
         outline: none;
     } */
     .hero .hero_logo{
-        height: 60px;
+        height: 32px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5px;
+        margin-top: 85px;
         /* background: white; */
     }
+    
     .hero .hero_heading{
         text-align: center;
-        font-weight: 400;
-        font-size: 35px;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 0 15px 0 15px;
         margin-top: 30px;
     }
     #search{
@@ -265,7 +384,7 @@ gap: 20px;
     }
     .search_box{
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
      }
      .city_name_container,.search_container{
         display: flex;
