@@ -163,7 +163,7 @@ span{
     align-items: center;
     justify-content: center;
     margin-top: 48px;
-   
+    margin-bottom: 48px;
 }
 .offer_section{
     align-items: center;
@@ -176,12 +176,87 @@ span{
 }
 .offer_section h3{
     padding: 10px 15px 8px 15px;
+    font-weight: 500;
 }
 .offer_section p{
     padding: 0 15px 15px 15px;
 }
 .offer_section:hover{
     transform: scale(1.06);
+}
+.collections_heading{
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-items: center;
+    justify-content: center; */
+}
+.collections_sub{
+    display: flex;
+    justify-content: space-between;
+}
+.container_hotel{
+    margin-top: 30px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 18px;
+    
+}
+.card{
+    height: 310px;
+    min-width: 260px;
+    background-size: cover;
+    background-position: center;
+    border-radius:8px 8px 8px 8px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.collections_offering1{
+    background-image: url(images/collection1.jpg);
+   
+}
+.collections_offering2{
+    background-image: url(images/collection2.jpg);
+   
+}
+.collections_offering3{
+    background-image: url(images/collection3.jpg);
+   
+}
+.collections_offering4{
+    background-image: url(images/collection4.jpg);
+   
+}
+.text{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 15px 10px 15px;
+    
+}
+.text h3 {
+    font-weight: 400;
+}
+.text p{
+    font-size: 14px;
+}
+
+
+.overlay{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0%;
+    position: absolute;
+    border-radius: 8px;
+
 }
 
 
