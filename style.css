@@ -6,9 +6,10 @@
     text-transform: capitalize;
 }
 .hero{
-    background: url(images/heroSectionBackground.png);
-    min-height: 60vh;
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    min-height: 61vh;
     background-position: center;
+    /* transform: scale(1.04); */
     background-size: cover;
     color: white;
 }
@@ -144,148 +145,46 @@ span{
     /* color: black; */
 
 }
+.offer_section img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 
-.card_container{
-    margin-top: 40px;
-display: flex;
-width: 70%;
-height: 250px;
-margin-left: auto;
-margin-right: auto;
-gap: 20px;
+  
 }
-.card_container_card{
-    flex:1;
-    /* background: red; */
-    border-radius: 15px;
-    border: 0.1px solid gainsboro;
-    cursor: pointer;
-    transition: all ease 0.4s;
-}
-.card_container_card_img1{
-   min-height: 65%;
-   background: url(images/item1.png);
-   background-position: center;
-   border-radius: 15px 15px 0 0;
-   background-size: cover;
-}
-.card_container_card_img2{
-    min-height: 65%;
-    background: url(images/item2.png);
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-    background-size: cover;
- }
- .card_container_card_img3{
-    min-height: 65%;
-    background: url(images/item3.png);
-    background-position: center;
-    border-radius: 15px 15px 0 0;
-    background-size: cover;
- }
- .card_container_card_heading{
-    padding: 15px 5px 5px 15px;
-    font-weight: 400;
-    font-size: 20px;
- }
- .card_container_card_heading_para{
-    padding: 5px 5px 15px 15px;
-    font-size: 15px;
- }
- .card_container_card:hover{
-   /* display: none; */
-   transform: scale(1.05);
- }
- .collections_div{
+.collections_container{
     display: flex;
-    margin-top: 80px;
-    flex-direction: column;
-    width: 71%;
+    width: 80%;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
- }
- .collections_container{
-    display: flex;
-    justify-content: space-between;
- }
- .collections{
-    font-size: 35px;
-    font-weight: 400;
- }
- .collections_container p{
-    font-size: 17px;
-    font-weight: 230;
- }
- .collections_container a{
-    text-decoration: none;
-    color: rgb(255, 55, 0);
- }
- .collections_card_container{
-    margin-top: 30px;
-display: flex;
-width: 72%;
-height: 305px;
-margin-left: auto;
-margin-right: auto;
-gap: 10px;
-margin-bottom: 100px;
- }
- .collections_card{
-    flex:1;
-    /* background: linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%); */
-    border-radius: 8px;
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-   
- }
- .collections_card_img1{
-    height: 100%;
-    width: 100%;
-    position: relative;
-   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection1.jpg) ;
-    background-position: center;
-    background-size: cover;
-    /* opacity: 0.7; */
-    border-radius: 8px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
    
 }
-.collections_card_img1 p{
-    position: absolute;
-    color: #fff;
-   height: 100%;
-    margin-top: calc(height - 15px);
+.offer_section{
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-radius: 14px;
+    border: 1px solid gainsboro;
+    transition: all ease 500ms;
+    overflow: hidden;
 }
-.collections_card_img2{
-    height: 100%;
-    width: 100%;
-   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection2.jpg) ;
-    background-position: center;
-    background-size: cover;
-    /* opacity: 0.7; */
-    border-radius: 8px;
-   
+.offer_section h3{
+    padding: 10px 15px 8px 15px;
 }
-.collections_card_img3{
-    height: 100%;
-    width: 100%;
-   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection3.jpg) ;
-    background-position: center;
-    background-size: cover;
-    /* opacity: 0.7; */
-    border-radius: 8px;
-   
+.offer_section p{
+    padding: 0 15px 15px 15px;
 }
-.collections_card_img4{
-    height: 100%;
-    width: 100%;
-   background:linear-gradient(0deg,rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(images/collection4.jpg) ;
-    background-position: center;
-    background-size: cover;
-    /* opacity: 0.7; */
-    border-radius: 8px;
-   
+.offer_section:hover{
+    transform: scale(1.06);
 }
+
+
 .link_section{
     display: flex;
     justify-content: space-between;
@@ -327,10 +226,10 @@ flex-direction: column;
     cursor: pointer;
  }
  .footer_container{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     width: 75%;
-    height: 310px;
+    /* height: 310px; */
     margin-left: auto;
     margin-right: auto;
     gap: 20px;
@@ -341,7 +240,7 @@ flex-direction: column;
     height: 100%;
     width: 100%;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-direction: column;
     margin-bottom: 30px;
     
@@ -353,6 +252,7 @@ flex-direction: column;
     font-weight: 400;
     margin: 7px 0;
     font-size: 16px;
+    color: black;
  }
  .footer_container_section a{
     text-decoration: none;
@@ -376,7 +276,7 @@ flex-direction: column;
     margin-right: auto;
     font-size: 13px;
     color: rgb(105, 105, 105);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
  }
  
 
@@ -457,24 +357,7 @@ flex-direction: column;
         justify-content: center;
         align-items: center;
         }
-    .card_container{
-        margin-top: 40px;
-   flex-wrap: wrap;
-    width: 90%;
-    height: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 20px;
-    }
-    .card_container_card_heading{
-        padding: 8px 5px 5px 15px;
-        font-weight: 400;
-        font-size: 15px;
-     }
-     .card_container_card_heading_para{
-        padding: 0px 5px 5px 15px;
-        font-size: 10px;
-     }
+   
      .div_footer_playstore{
         width: 90%;
  
