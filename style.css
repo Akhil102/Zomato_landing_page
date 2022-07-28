@@ -188,12 +188,28 @@ span{
     width: 72%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 5px;
     /* align-items: center;
     justify-content: center; */
+}
+.collections_heading h1{
+    font-weight:500;
+    font-size: 35px;
 }
 .collections_sub{
     display: flex;
     justify-content: space-between;
+}
+.collections_sub a{
+    text-decoration: none;
+    color: rgba(255, 68, 0, 0.851);
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 15px;
+}
+.collections_sub p{
+    font-size: 18px;
+    font-weight: 300;
 }
 .container_hotel{
     margin-top: 30px;
@@ -205,7 +221,7 @@ span{
     margin-right: auto;
     flex-wrap: wrap;
     gap: 18px;
-    
+    margin-bottom: 48px;
 }
 .card{
     height: 310px;
@@ -257,6 +273,44 @@ span{
     position: absolute;
     border-radius: 8px;
 
+}
+.variety_container{
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.variety_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 48px;
+    transition: all ease 200ms;
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-direction: row; */
+}
+.variety_sub_section{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.sub_sub_section{
+    border: 1px solid rgba(232, 232, 232, 0.76);
+    border-radius: 8px;
+    box-shadow: rgb(213, 213, 213) 0px 1.5px 2.9px;
+
+    width: 355px;
+}
+.sub_sub_section p{
+    padding: 8px 15px;
+}
+.sub_sub_section:hover{
+    box-shadow: rgb(213, 213, 213) 0 2.5px 4.5px;
+    transform: scale(1.01);
 }
 
 
