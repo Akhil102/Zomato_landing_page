@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.hero_section{
+    /* background: ; */
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.link_section{
+    display: flex;
+    justify-content: space-between;
+}
+ .footer_sections{
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+background: rgb(248, 248, 248);
+margin-left: auto;
+margin-right: auto;
+flex-direction: column;
+ }
+ .div_footer_playstore{
+    margin-top: 50px;
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+ }
+ .div_footer_playstore img{
+    height: 30px;
+ }
+ .div_footer_span{
+    display: flex;
+    gap: 20px;
+    height: 45px;
+ }
+ .div_footer_span span{
+   padding: 5px 10px;
+    border: 1px solid rgb(105, 105, 105);
+    color: black;
+    font-size: 17px;
+    background: rgb(248, 248, 248);
+    font-weight: 400;
+    border-radius:8px ;
+    cursor: pointer;
+ }
+ .footer_container{
+    margin-top: 20px;
+    display: flex;
+    width: 75%;
+    /* height: 310px; */
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+  
+ }
+ .footer_container_section{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+    /* background: red; */
+    /* justify-content: center;
+    align-items: center; */
+ }
+ .footer_container_section p{
+    font-weight: 400;
+    margin: 7px 0;
+    font-size: 16px;
+    color: black;
+ }
+ .footer_container_section a{
+    text-decoration: none;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(105, 105, 105);
+ }
+ hr{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border-width: 1px 0 0 0;
+    border-top-color:rgb(207, 207, 207);
+ }
+ .terms{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    color: rgb(105, 105, 105);
+    margin-bottom: 20px;
+ }
+ 

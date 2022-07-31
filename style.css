@@ -314,6 +314,82 @@ span{
 }
 
 
+.poster_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+}
+
+.poster_section{
+    padding: 48px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.banner{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+.poster_get_app{
+    width: 600px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.poster_radio_button{
+    display: flex;
+    gap: 36px;
+}
+.get_app_search{
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.get_app_search input , .get_app_search button{
+    padding:12px;
+    margin: none;
+    border-radius: 8px;
+}
+.get_app_search input{
+    flex: auto;
+    border: 1px solid rgb(213, 213, 213);
+}
+.get_app_search button{
+    width: 150px;
+    cursor: pointer;
+    background-color: rgb(235, 86, 22);
+    border: none;
+    color: white;
+}
+
+.get_app_download{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.get_app_download div{
+    display: flex;
+    gap: 24px;
+}
+
+.get_app_download div img{
+    cursor: pointer;
+    width: 150px;
+}
+
+
+
 .link_section{
     display: flex;
     justify-content: space-between;
